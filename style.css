@@ -1,0 +1,39 @@
+
+body {
+    background: #10131c;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #00e5a8;
+}
+
+.camera-container {
+    position: relative;
+    width: 640px;
+    max-width: 95%;
+    margin: 25px auto;
+}
+
+video, canvas {
+    width: 100%;
+    border-radius: 12px;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+button {
+    background: #00e5a8;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
